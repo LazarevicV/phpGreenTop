@@ -3,8 +3,8 @@
 echo $title;
 
 ?>
-    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-primary navbar-light">
+        <div class="container">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <?php
