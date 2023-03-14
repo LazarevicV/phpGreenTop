@@ -1,5 +1,5 @@
 
-<div class="container fixed-bottom">
+<div class="container-fluid">
     <!-- Footer -->
 <footer class="text-center text-lg-start bg-white text-muted ">
     <!-- Section: Social media -->

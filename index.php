@@ -13,5 +13,6 @@
   <h1 class="text-center text-dark pt-3">Green top</h1>
   <h5 class="text-center text-dark">Since 1956...</h5>
 </div>
+</div>
 
 <?php include "modules/footer.php"; ?>
