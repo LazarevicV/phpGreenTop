@@ -9,10 +9,15 @@
 
 <!-- <h1>Green top</h1> -->
 
-<div class="mt-4 p-3 bg-success text-white rounded">
-  <h1 class="text-center text-dark pt-3">Green top</h1>
-  <h5 class="text-center text-dark">Since 1956...</h5>
-</div>
+<div class="content">
+	<div class="left-side">
+		<h1>
+			GreenTop
+		</h1>
+	</div>
+	<div class="right-side">
+		<img src="images/withoutBackground.png" alt="raspberry">
+	</div>
 </div>
 
 <?php include "modules/footer.php"; ?>
