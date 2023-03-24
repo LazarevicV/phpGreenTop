@@ -1,0 +1,68 @@
+.smanji_margine {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-top: 0;
+    padding-top: 0;
+    height: 5vh;
+}
+
+body {
+    background-color: #2c6c1c;
+}
+
+#navbarNav {
+    margin-right: 10%;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-side {
+    /* transform: rotate(-10deg); */
+    padding-top: 5vh;
+}
+
+.left-side h1 {
+    font-size: 15vh;
+    /* padding-top: 10vh; */
+    font-weight: 800;
+    /* padding-left: 10vh; */
+    /* color: white; */
+}
+
+.right-side {
+    height: 85vh;
+}
+
+.right-side img {
+    width: 50%;
+    height: 100%;
+}
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
