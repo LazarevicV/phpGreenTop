@@ -1,10 +1,9 @@
 
 <?php
-
-    $title = "Home page";
+    session_start();
+    $GLOBALS['title'] = "Home page";
     include "modules/header.php";
     include "modules/mainnav.php";
-
 ?>
 
 <!-- <h1>Green top</h1> -->
