@@ -1,5 +1,6 @@
 
 <?php
+    include "connection/connection.php";
     session_start();
     $GLOBALS['title'] = "Home page";
     include "modules/header.php";
