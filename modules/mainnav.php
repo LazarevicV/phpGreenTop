@@ -1,8 +1,3 @@
-<?php
-
-// echo $title;
-
-?>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="profil.php?username=<?=$_SESSION['username']?>">
@@ -20,11 +15,17 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.php">Home</a>
             </li>
+              <li class="nav-item">
+                  <?php
+                  if (isset($_SESSION['username'])) {
+                      echo '<a class="nav-link" onclick="alert(\'Vec ste ulogovani!\');" href="index.php">Login</a>';
+                  } else {
+                      echo '<a class="nav-link" href="loginPage.php">Login</a>';
+                  }
+                  ?>
+              </li>
             <li class="nav-item">
-              <a class="nav-link" href="nova_stranica.php">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="loginPage.php">Login</a>
+              <a class="nav-link" href="registerPage.php">Register</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="logoutPage.php">Logout</a>
